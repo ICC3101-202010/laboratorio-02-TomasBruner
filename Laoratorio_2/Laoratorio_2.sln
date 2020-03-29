@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laoratorio_2", "Laoratorio_2\Laoratorio_2.csproj", "{DC7C849F-201A-4A14-A751-B21AE6D47981}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC7C849F-201A-4A14-A751-B21AE6D47981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7C849F-201A-4A14-A751-B21AE6D47981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7C849F-201A-4A14-A751-B21AE6D47981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7C849F-201A-4A14-A751-B21AE6D47981}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DBE050E-FB63-4261-97AF-B1A04B7C4725}
+	EndGlobalSection
+EndGlobal
