@@ -1,0 +1,7 @@
+C:\Users\tomas\Downloads\laboratorio-02-TomasBruner\Laoratorio_2\Laoratorio_2\obj\Debug\Laoratorio_2.csprojAssemblyReference.cache
+C:\Users\tomas\Downloads\laboratorio-02-TomasBruner\Laoratorio_2\Laoratorio_2\obj\Debug\Laoratorio_2.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\laboratorio-02-TomasBruner\Laoratorio_2\Laoratorio_2\bin\Debug\Laoratorio_2.exe.config
+C:\Users\tomas\Downloads\laboratorio-02-TomasBruner\Laoratorio_2\Laoratorio_2\bin\Debug\Laoratorio_2.exe
+C:\Users\tomas\Downloads\laboratorio-02-TomasBruner\Laoratorio_2\Laoratorio_2\bin\Debug\Laoratorio_2.pdb
+C:\Users\tomas\Downloads\laboratorio-02-TomasBruner\Laoratorio_2\Laoratorio_2\obj\Debug\Laoratorio_2.exe
+C:\Users\tomas\Downloads\laboratorio-02-TomasBruner\Laoratorio_2\Laoratorio_2\obj\Debug\Laoratorio_2.pdb
