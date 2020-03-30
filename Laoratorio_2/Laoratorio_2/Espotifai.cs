@@ -6,34 +6,39 @@ using System.Threading.Tasks;
 
 namespace Laoratorio_2
 {
-    class Espotifai
+    class Espotifai 
     {
-        List<string> songs = new List<string>();
 
         public Espotifai()
         {
 
         }
-        
-        public bool AddSong(Song song)
+
+        List<String> songs = new List<String>();
+
+        public bool AddSong(String song)
         {
-            if (songs.Contains(song.Information()))
+            if (songs.Contains(song))
             {
                 return false;
             }
             else
             {
-                songs.Add(song.Information());
+                songs.Add(song);
+                return true;
             }
-
         }
+
         
         public void WatchSongs()
         {
-            foreach(string s in songs)
+            int i = 0;
+            while (i < songs.Count)
             {
-                Console.WriteLine(s);
+                Console.WriteLine(songs[i]);
+                i++;
             }
         }
+
     }
 }

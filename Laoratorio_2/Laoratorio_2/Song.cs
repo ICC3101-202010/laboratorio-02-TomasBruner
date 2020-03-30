@@ -6,41 +6,12 @@ using System.Threading.Tasks;
 
 namespace Laoratorio_2
 {
-    public class Song
+    public class Song 
     {
         private string name;
         private string genre;
         private string artist;
         private string album;
-
-        public string Name
-        {
-            get
-            {
-                return this.name;
-            }
-        }
-        public string Genre
-        {
-            get
-            {
-                return this.genre;
-            }
-        }
-        public string Artist
-        {
-            get
-            {
-                return this.artist;
-            }
-        }
-        public string Album
-        {
-            get
-            {
-                return this.album;
-            }
-        }
 
         public Song(string name, string artist, string album, string genre)
         {
