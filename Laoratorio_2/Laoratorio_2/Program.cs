@@ -19,6 +19,11 @@ namespace Laoratorio_2
             Song s3 = new Song("The One", "Back Street Boys", "Millennium", "Pop");
             Console.WriteLine(s3.Information());
 
+            
+
+            
+
+
             Console.ReadKey();
 
 
