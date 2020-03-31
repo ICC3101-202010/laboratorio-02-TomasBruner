@@ -21,18 +21,9 @@ namespace Laoratorio_2
             this.genre = genre;
         }
 
-        public string GetName()
-        {
-            return name;
-        }
-
-        public string GetGenre()
-        {
-            return genre;
-        }
         public string Information()
         {
-            return ("Name:" + name + ", Artist:" + artist + ", Album:" + album + ", Genre:" + GetGenre());
+            return ("Name:" + name + ", Artist:" + artist + ", Album:" + album + ", Genre:" + genre);
         }
 
 
