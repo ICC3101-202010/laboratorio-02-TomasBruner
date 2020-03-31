@@ -10,9 +10,9 @@ namespace Laoratorio_2
     {
         static void Main(string[] args)
         {
-            Song s1 = new Song("Rojo", "J balvin", "Colores", "Urbano");
-            Song s2 = new Song("Alguien soy yo", "Enrique Iglesias", "Insomniac", "Baladas");
-            Song s3 = new Song("The One", "Back Street Boys", "Millennium", "Pop");
+            Song s1 = new Song("rojo", "j balvin", "colores", "urbano");
+            Song s2 = new Song("alguien soy yo", "enrique iglesias", "insomniac", "baladas");
+            Song s3 = new Song("the One", "back Street Boys", "millennium", "pop");
 
             //Canciones predeterminadas en la lista
             Espotifai lista1 = new Espotifai();
@@ -29,7 +29,7 @@ namespace Laoratorio_2
             Console.WriteLine("4. Exit");
             string choice;
             choice = Console.ReadLine();
-            while (choice == "1" || choice == "2" || choice == "3")
+            while (choice == "1" || choice == "2" || choice == "3" || choice == "4")
             {
                 if (choice == "1")
                 {

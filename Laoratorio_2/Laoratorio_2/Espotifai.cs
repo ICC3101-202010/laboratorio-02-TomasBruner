@@ -75,7 +75,7 @@ namespace Laoratorio_2
                     }
                     else
                     {
-                      
+
                         i++;
                     }
                 }
@@ -93,7 +93,6 @@ namespace Laoratorio_2
                     }
                     else
                     {
-                        Console.WriteLine("This value doesn´t exist");
                         i++;
                     }
                 }
@@ -115,9 +114,14 @@ namespace Laoratorio_2
                     }
                 }
             }
-            
-        return values;
+
+            return values;
         }
 
-    }
+        public bool GeneratePlaylist(String criterion, String valueCriterion, String PlaylistName)
+        {
+            return true;
+        }
+
+    }   
 }

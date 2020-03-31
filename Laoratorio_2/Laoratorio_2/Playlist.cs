@@ -16,6 +16,11 @@ namespace Laoratorio_2
             name = inputname;
             songs = inputsongs;
         }
+
+        public string InfoPlaylist()
+        {
+            return ("PLaylist name:" + name + "and this songs are in" + songs);
+        }
  
     }
 }
