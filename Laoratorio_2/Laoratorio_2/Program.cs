@@ -25,7 +25,8 @@ namespace Laoratorio_2
             Console.WriteLine("What would you like to do?:");
             Console.WriteLine("1. See songs in the list");
             Console.WriteLine("2. Add song to the list");
-            Console.WriteLine("3. Exit");
+            Console.WriteLine("3. Choose songs for criterion");
+            Console.WriteLine("4. Exit");
             string choice;
             choice = Console.ReadLine();
             while (choice == "1" || choice == "2" || choice == "3")
@@ -52,26 +53,43 @@ namespace Laoratorio_2
                     Song newSong = new Song(newName, newArtist, newAlbum, newGenre);
                     if (lista1.AddSong(newSong.Information()) == false)
                     {
-                        
+
                         Console.WriteLine("The song already exists");
                     }
-                    else
+                    else if (lista1.AddSong(newSong.Information()) == true)
                     {
                         lista1.AddSong(newSong.Information());
                         Console.WriteLine("The song has been added");
                     }
-                    
                 }
                 else if (choice == "3")
+                {
+                    Console.WriteLine("Choose a criterion (name, artist, genre, album)");
+                    string criteria = Console.ReadLine();
+                    if (criteria == "name" || criteria == "artist" || criteria == "genre" || criteria == "album")
+                    {
+                        Console.WriteLine("Choose a value for this criterion");
+                        string value = Console.ReadLine();
+                        lista1.SongsForCriteria(criteria, value);
+                        
+                    }
+                    else
+                    {
+                        Console.WriteLine("This criterion doesn´t exist");
+                    }
+                    
+                }
+                
+                else if (choice == "4")
                 {
                     Console.WriteLine("Goodbye!");
                     break;
                 }
-                Console.WriteLine("Welcome to Espotifi");
                 Console.WriteLine("What would you like to do?:");
                 Console.WriteLine("1. See songs in the list");
                 Console.WriteLine("2. Add song to the list");
-                Console.WriteLine("3. Exit");
+                Console.WriteLine("3. Choose songs for criterion");
+                Console.WriteLine("4. Exit");
                 choice = Console.ReadLine();
             }
             Console.ReadKey();
